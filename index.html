@@ -1,0 +1,280 @@
+<!doctype html>
+<html lang="es">
+<head>
+<link rel="stylesheet" type="text/css" href="base.css" />
+<link rel="stylesheet" type="text/css" href="exe_effects.css" />
+<link rel="stylesheet" type="text/css" href="content.css" />
+<link rel="stylesheet" type="text/css" href="nav.css" />
+<meta http-equiv="content-type" content="text/html;  charset=utf-8" />
+<title>Matemática Financiera </title>
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+<meta name="author" content="Equipo rea 3º Eso de Matemáticas" />
+<link rel="license" type="text/html" href="http://creativecommons.org/licenses/by-nc-sa/4.0/" />
+<meta name="generator" content="eXeLearning 2.9 - exelearning.net" />
+<meta name="description" content="En esta situación de aprendizaje está diseñada para trabajar los saberes básicos de matemática financiera en 4º de la ESO opción B.
+Se introducen los conceptos básicos de la matemática financiera: interés simple y compuesto así como la simulación de la amortización de un préstamo y se recuerdan porcentajes y variaciones porcentuales.
+Como producto final se propone al alumnado que elija un producto que desea adquirir y tras analizar sus gastos e ingresos mensuales determine que le interesa más para adquirirlo, ahorrar o pedir un préstamo. Se aprovecha la exposición de los productos finales para establecer un debate que ponga de manifiesto las ventajas e inconvenientes de los préstamos.
+" />
+<!--[if lt IE 9]><script type="text/javascript" src="exe_html5.js"></script><![endif]-->
+<script type="text/javascript" src="exe_jquery.js"></script>
+<script type="text/javascript" src="exe_effects.js"></script>
+<script type="text/javascript" src="common_i18n.js"></script>
+<script type="text/javascript" src="common.js"></script>
+<link rel="stylesheet" type="text/css" href="udl-content.css" />
+<script type="text/javascript" src="udl-content.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+ extensions: ["tex2jax.js"],
+ jax: ["input/TeX", "output/HTML-CSS"],
+ tex2jax: {
+ inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+ displayMath: [ ['$$','$$'], ["\\[","\\]"] ],
+ processEscapes: true
+ },
+ "HTML-CSS": { fonts: ["TeX"] },
+ TeX: { equationNumbers: { autoNumber: "AMS" } },
+ loader: {load: ['[tex]/cancel']},
+ tex: {packages: {'[+]': ['cancel']}}
+  });
+</script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=default"></script>
+
+
+<style>
+.facilitada {
+  font-size: 14pt;
+  line-height: 1.5;
+}
+.facilitada ul {
+   line-height: 2.5;
+ 
+}
+ 
+.facilitada ol {
+   line-height: 2.5;
+ 
+}
+ 
+</style></head>
+<body class="exe-web-site" id="exe-node-0"><script type="text/javascript">document.body.className+=" js"</script>
+<div id="content">
+<p id="skipNav"><a href="#main" class="sr-av">Saltar la navegación</a></p>
+<header id="header" ><div id="headerContent">Matemática Financiera</div></header>
+<nav id="siteNav">
+<ul>
+   <li id="active"><a href="index.html" class="active daddy main-node">Matemática Financiera</a></li>
+   <li><a href="1_ahorrar_o_pedir_un_prstamo.html" class="daddy">1. ¿Ahorrar o pedir un préstamo?</a>
+   <ul class="other-section">
+      <li><a href="aumentos_y_disminuciones_porcentuales.html" class="no-ch">Aumentos y disminuciones porcentuales</a></li>
+      <li><a href="inters_simple_y_compuesto.html" class="no-ch">Interés simple y compuesto</a></li>
+   </ul>
+   </li>
+   <li><a href="2_cunto_dinero_tengo.html" class="no-ch">2. ¿Cuánto dinero tengo?</a></li>
+   <li><a href="3_cunto_necesito.html" class="daddy">3. ¿Cuánto necesito?</a>
+   <ul class="other-section">
+      <li><a href="hojas_de_clculo.html" class="no-ch">Hojas de cálculo</a></li>
+   </ul>
+   </li>
+</ul>
+</nav>
+<div id='topPagination'>
+<nav class="pagination noprt">
+<span class="page-counter">Página <strong>1</strong> de <strong>7</strong></span> <span class="sep">| </span><a href="1_ahorrar_o_pedir_un_prstamo.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
+</nav>
+</div>
+<div id="main-wrapper">
+<section id="main">
+<header id="nodeDecoration"><h1 id="nodeTitle">Matemática Financiera</h1></header>
+<article class="iDevice_wrapper UDLcontentIdevice" id="id769">
+<div class="iDevice emphasis0" >
+<div id="ta769_921_2" class="block iDevice_content">
+<div class="exe-udlContent exe-udlContent-representation"><section class="exe-udlContent-block js-hidden"><header class="exe-udlContent-header"><h2>Diccionario lectura facilitada</h2></header><div class="exe-udlContent-content"><div class="exe-udlContent-content-main"><div class="exe-fx exe-accordion">
+<h2>Amortización</h2>
+<p><img src="amortizacion.png" alt="Amortización" title="Amortización" style="float: left; margin-right: 10px; margin-left: 10px;" width="125" height="125"></p>
+<dl style="overflow: hidden;">
+<dt><strong>Definición</strong></dt>
+<dd>
+<p>Pagar el total o parte de una deuda.</p>
+</dd>
+<dt><strong>Ejemplo</strong></dt>
+<dd>
+<p>Ya he amortizado el préstamo que pedí.</p>
+</dd>
+</dl>
+<h2>Conceptos financieros</h2>
+<p><img src="conceptosfinancieros.png" alt="Conceptos financieros" title="Conceptos financieros" style="float: left; margin-right: 10px; margin-left: 10px;" width="125" height="125"></p>
+<dl style="overflow: hidden;">
+<dt><strong>Definición</strong></dt>
+<dd>
+<p>Todo lo relativo a la gestión y obtención de capitales</p>
+</dd>
+<dt><strong>Ejemplo</strong></dt>
+<dd>
+<p>Es necesario conocer conceptos financieros para hacer bien las cosas.</p>
+</dd>
+</dl>
+<h2>Concesión</h2>
+<p><img src="concesion.png" alt="Concesión" title="Concesión" style="float: left; margin-right: 10px; margin-left: 10px;" width="125" height="125"></p>
+<dl style="overflow: hidden;">
+<dt><strong>Definición</strong></dt>
+<dd>
+<p>Que ha sido concedido, que ha sido dado.</p>
+</dd>
+<dt><strong>Ejemplo</strong></dt>
+<dd>
+<p>La concesión del préstamo me permitió comprar la casa.</p>
+</dd>
+</dl>
+<h2>Crédito</h2>
+<p><img src="credito.png" alt="Crédito" title="Crédito" style="float: left; margin-right: 10px; margin-left: 10px;" width="125" height="125"></p>
+<dl style="overflow: hidden;">
+<dt><strong>Definición</strong></dt>
+<dd>
+<p>Cantidad de dinero u otro medio de pago que una entidad, especialmente bancaria, presta a otra bajo determinadas condiciones de devolución.</p>
+</dd>
+<dt><strong>Ejemplo</strong></dt>
+<dd>
+<p>Me han concedido el crédito para comprar la casa.</p>
+</dd>
+</dl>
+<h2>Economía Saneada</h2>
+<p><img src="economiasanea.1.png" alt="Economía Saneada" title="Economía Saneada" style="float: left; margin-right: 10px; margin-left: 10px;" width="125" height="125"></p>
+<dl style="overflow: hidden;">
+<dt><strong>Definición</strong></dt>
+<dd>
+<p>Cuando los bienes superan las deudas.</p>
+</dd>
+<dt><strong>Ejemplo</strong></dt>
+<dd>
+<p>La empresa ha saneado su economía.</p>
+</dd>
+</dl>
+<h2>Equitativa</h2>
+<p><img src="equitativa.png" alt="Equitativa" title="Equitativa" style="float: left; margin-right: 10px; margin-left: 10px;" width="125" height="125"></p>
+<dl style="overflow: hidden;">
+<dt><strong>Definición</strong></dt>
+<dd>
+<p>Igual.</p>
+</dd>
+<dt><strong>Ejemplo</strong></dt>
+<dd>
+<p>Nuestras ganancias son equitativas.</p>
+</dd>
+</dl>
+<h2>Índice de Precios de Consumo (IPC)</h2>
+<p><img src="indicepreciosconsumo.png" alt="IPC" title="IPC" style="float: left; margin-right: 10px; margin-left: 10px;" width="188" height="125"></p>
+<dl style="overflow: hidden;">
+<dt><strong>Definición</strong></dt>
+<dd>
+<p>Mide los cambios de precios de bienes y servicios adquiridos por los hogares.</p>
+</dd>
+<dt><strong>Ejemplo</strong></dt>
+<dd>
+<p>La variación anual del IPC en España es de 7 %.</p>
+</dd>
+</dl>
+<h2>Interés</h2>
+<p><img src="interes.png" alt="Interés" title="Interés" style="float: left; margin-right: 10px; margin-left: 10px;" width="125" height="125"></p>
+<dl style="overflow: hidden;">
+<dt><strong>Definición</strong></dt>
+<dd>
+<p>Ganancia producida por el capital (dinero).</p>
+</dd>
+<dt><strong>Ejemplo</strong></dt>
+<dd>
+<p>El dinero que tengo en el banco ha crecido con un 1% de interés.</p>
+</dd>
+</dl>
+<h2>Plazos</h2>
+<p><img src="plazos.png" alt="Plazos" title="Plazos" style="float: left; margin-right: 10px; margin-left: 10px;" width="125" height="125"></p>
+<dl style="overflow: hidden;">
+<dt><strong>Definición</strong></dt>
+<dd>
+<p>Tiempo en el que debe ser realizada una actuación.</p>
+</dd>
+<dt><strong>Ejemplo</strong></dt>
+<dd>
+<p>Tengo que pagar el móvil en 4 plazos.</p>
+</dd>
+</dl>
+<h2>Porcentaje</h2>
+<p><img src="porcentaje.png" alt="Porcentaje" title="Porcentaje" style="float: left; margin-right: 10px; margin-left: 10px;" width="125" height="135"></p>
+<dl style="overflow: hidden;">
+<dt><strong>Definición</strong></dt>
+<dd>
+<p>Relación existente entre 2 números (en términos de 100 unidades).</p>
+</dd>
+<dt><strong>Ejemplo</strong></dt>
+<dd>
+<p>Dominar los porcentajes es importante para el estudio de un préstamo.</p>
+</dd>
+</dl>
+<h2>Préstamo</h2>
+<p><img src="prestamo.png" alt="Préstamo" title="Préstamo" style="float: left; margin-right: 10px; margin-left: 10px;" width="125" height="125"></p>
+<dl style="overflow: hidden;">
+<dt><strong>Definición</strong></dt>
+<dd>
+<p>Cantidad de dinero que se solicita, generalmente a una institución financiera, con la obligación de devolverlo con un interés.</p>
+</dd>
+<dt><strong>Ejemplo</strong></dt>
+<dd>
+<p>Necesito un préstamo para comprar la casa.</p>
+</dd>
+</dl>
+<h2>Progresión aritmética</h2>
+<p><img src="progresionarit.jpg" alt="Progresión aritmética" title="Progresión aritmética" style="float: left; margin-right: 10px; margin-left: 10px;" width="125" height="28"></p>
+<dl style="overflow: hidden;">
+<dt><strong>Definición</strong></dt>
+<dd>
+<p>La diferencia entre sus términos es constante.</p>
+</dd>
+<dt><strong>Ejemplo</strong></dt>
+<dd>
+<p>Hoy hemos dedicado mucho tiempo a las progresiones aritméticas.</p>
+</dd>
+</dl>
+<h2>Renta</h2>
+<p><img src="renta.png" alt="Renta" title="Renta" style="float: left; margin-right: 10px; margin-left: 10px;" width="125" height="125"></p>
+<dl style="overflow: hidden;">
+<dt><strong>Definición</strong></dt>
+<dd>
+<p>Beneficio que rinde anualmente algo.</p>
+</dd>
+<dt><strong>Ejemplo</strong></dt>
+<dd>
+<p>Ha subido el impuesto sobre la renta.</p>
+</dd>
+</dl>
+<h2>Tasa Anual Equivalente (TAE)</h2>
+<p><img src="tasaanual.png" alt="Tasa anual" title="Tasa anual" style="float: left; margin-right: 10px; margin-left: 10px;" width="125" height="125"></p>
+<dl style="overflow: hidden;">
+<dt><strong>Definición</strong></dt>
+<dd>
+<p>Interés que nos va a generar un dinero o el coste que tendremos que pagar por un crédito.</p>
+</dd>
+<dt><strong>Ejemplo</strong></dt>
+<dd>
+<p>El banco nos da el 5% TAE de nuestros ahorros.</p>
+</dd>
+</dl>
+</div></div></div></section><section class="exe-udlContent-block"><div class="exe-udlContent-content"><div class="exe-udlContent-content-main"><figure class="exe-figure exe-image position-center license-CC-BY-SA" style="width: 300px;"><span style="font-size: 24pt;">ECONOMÍA Y EMPRENDIMIENTO 4ºESO</span></figure>
+<figure class="exe-figure exe-image position-center license-CC-BY-SA" style="width: 300px;"><img src="foto.jpg" alt="Aparecen 6 columnas de monedas" width="300" height="225">
+<figcaption class="figcaption"><a href="El confidencial" target="_blank" class="author" rel="noopener">iStock.</a>. <a href="https://www.google.es/imgres?q=Econom%C3%ADa&amp;imgurl=https%3A%2F%2Fimages.ecestaticos.com%2F70vPrQiFq7qy8b7Q3hm3B2SbmIg%3D%2F0x0%3A1252x838%2F1200x900%2Ffilters%3Afill(white)%3Aformat(jpg)%2Ff.elconfidencial.com%252Foriginal%252F42b%252F340%252Fabd%252F42b340abdaf5a366eea8041916572d82.jpg&amp;imgrefurl=https%3A%2F%2Fwww.elconfidencial.com%2Feconomia%2F2023-03-29%2Fkpmg-espera-que-la-economia-mundial-crezca-un-2-1_3602301%2F&amp;docid=UV4dh0PZJGEqYM&amp;tbnid=91ya4MCBYVjNZM&amp;vet=12ahUKEwiUuPD2t9aFAxUDk_0HHXJWDvMQM3oECBoQAA..i&amp;w=1200&amp;h=900&amp;hcb=2&amp;ved=2ahUKEwiUuPD2t9aFAxUDk_0HHXJWDvMQM3oECBoQAA" target="_blank" class="title" rel="noopener"><em>El confidencial</em></a> <span class="license"><span class="sep">(</span><a href="http://creativecommons.org/licenses/?lang=es" rel="license nofollow noopener" target="_blank" title="Creative Commons BY-SA">CC BY-SA</a><span class="sep">)</span></span></figcaption>
+</figure>
+</div></div></section></div>
+</div>
+</div>
+</article>
+<div id="packageLicense" class="cc cc-by-nc-sa">
+<p><span>Obra publicada con</span> <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Licencia Creative Commons Reconocimiento No comercial Compartir igual 4.0</a></p>
+</div>
+</section>
+</div>
+<div id='bottomPagination'>
+<nav class="pagination noprt">
+<span class="page-counter">Página <strong>1</strong> de <strong>7</strong></span> <span class="sep">| </span><a href="1_ahorrar_o_pedir_un_prstamo.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
+</nav>
+</div>
+</div>
+<p id="made-with-eXe"><a href="https://exelearning.net/" target="_blank" rel="noopener"><span>Creado con eXeLearning<span> (Ventana nueva)</span></span></a></p><script type="text/javascript" src="_style_js.js"></script></body></html>
